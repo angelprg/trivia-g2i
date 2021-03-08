@@ -10,3 +10,8 @@ Angel Reséndiz
 
 # Demo
 [https://g2i-trivia.herokuapp.com/](https://g2i-trivia.herokuapp.com )
+
+# Run project from source in dev mode:
+
+* ```yarn install```
+* ```yarn dev```
