@@ -1,0 +1,10 @@
+export { default as Button } from "./Button/Button";
+export { default as Category } from "./Category/Category";
+export { default as Counter } from "./Counter/Counter";
+export { default as Heading } from "./Heading/Heading";
+export { default as Logo } from "./Logo/Logo";
+export { default as Question } from "./Question/Question";
+export { default as ResponseButtons } from "./ResponseButtons/ResponseButtons";
+export { default as Score } from "./Score/Score";
+export { default as ResultItem } from "./ResultItem/ResultItem";
+export { default as ResultList } from "./ResultList/ResultList";

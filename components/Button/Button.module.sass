@@ -1,0 +1,32 @@
+@use "../../theme/vars.sass"
+
+.button, .button a
+  display: flex
+  align-items: center
+  justify-content: center
+  min-height: 56px
+  min-width: 300px
+  text-decoration: none
+
+  color: vars.$bg-primary
+  font-size: 26px
+  font-weight: 500
+  text-transform: capitalize
+  
+  cursor: pointer
+  border-radius: 32px  
+
+.button
+  margin: 20px
+
+.buttonPrimary
+  background-color: vars.$primary
+  &:hover
+    opacity: 90%
+  
+.buttonSecondary
+  background-color: vars.$secondary
+  &:hover
+    opacity: 90%
+  
+  
