@@ -20,8 +20,5 @@
     "sass": "^1.32.8",
     "uuid": "^8.3.2"
   },
-  "devDependencies": {
-    "next-images": "^1.7.0"
-  },
   "license": "MIT"
 }
