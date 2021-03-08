@@ -1,0 +1,19 @@
+@use "../../theme/vars"
+.mainContainer
+  background-color: vars.$bg-primary
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  text-align: right
+  height: 100vh
+  display: flex
+  flex-direction: column
+  overflow: scroll
+  
+  @media ( min-width: vars.$breakpoint-mobile )
+      width: 720px
+      border-radius: 30px
+      box-shadow: 10px 10px 50px #CCC
+      overflow: hidden
+      min-height: 90vh
+      height: auto
